@@ -49,11 +49,11 @@ APP/
 - Movie : render info about a movie
 - searchform : renders a search bar
 
-1. Setup routing for Home page and Movie page
+3. Setup routing for Home page and Movie page
 
-2. Setup context API
+4. Setup context API
 
-3. Build Movies component
+5. Build Movies component
 
 4. Build Search Form ccomponent
 
