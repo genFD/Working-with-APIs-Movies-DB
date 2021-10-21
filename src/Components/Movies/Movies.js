@@ -1,5 +1,6 @@
 import React from 'react';
-import { useGlobalContext } from '../Context/context';
+import './movie.styles.css';
+import { useGlobalContext } from '../../Context/context';
 import { Link } from 'react-router-dom';
 const url =
   'https://upload.wikimedia.org/wikipedia/commons/f/fc/No_picture_available.png';
