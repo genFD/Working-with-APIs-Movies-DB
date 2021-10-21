@@ -33,7 +33,7 @@ The “Movies DB”, should do the following:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Movies DB](https://movies-dbs.netlify.app/)
 
 ### Workflow
 
