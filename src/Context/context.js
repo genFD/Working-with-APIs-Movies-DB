@@ -1,6 +1,5 @@
 import React, { useState, useContext, useEffect } from 'react';
-
-export const API_ENDPOINT = 'https://www.omdbapi.com/?&apikey=c991fda6';
+import { API_ENDPOINT } from '../API/api.endpoint';
 
 const AppContext = React.createContext();
 const AppProvider = ({ children }) => {
