@@ -42,8 +42,8 @@ The “Movies DB”, should do the following:
    
 2.  Deciding on the components architecture :
 APP/
-- 
-- ```html
+
+```jsx
 <Home/> 
 ```
 - : top-level component that renders search form component and list of movies
@@ -51,15 +51,15 @@ APP/
 - <Movie/> : render info about a movie
 - <searchform/> : renders a search bar
 
-3. Setup routing for Home page and Movie page
+1. Setup routing for Home page and Movie page
 
-4. Setup context API
+2. Setup context API
 
-5. Build Movies component
+3. Build Movies component
 
-6. Build Search Form ccomponent
+4. Build Search Form ccomponent
 
-7. Build Movie component
+5. Build Movie component
 
 ### Useful resources
 
