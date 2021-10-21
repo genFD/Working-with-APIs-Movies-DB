@@ -1,5 +1,6 @@
 import React from 'react';
-import { useGlobalContext } from './context';
+import { useGlobalContext } from '../Context/context';
+
 const SearchForm = () => {
   const { query, setQuery, error } = useGlobalContext();
 

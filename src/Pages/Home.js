@@ -1,6 +1,6 @@
 import React from 'react';
-import Form from './SearchForm';
-import Movies from './Movies';
+import Form from '../Components/SearchForm';
+import Movies from '../Components/Movies';
 const Home = () => {
   return (
     <main>
