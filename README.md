@@ -42,10 +42,10 @@ The “Movies DB”, should do the following:
    
 2.  Deciding on the components architecture :
 APP/
-|-- Home : top-level component that renders search form component and list of movies
-    |-- Movies : renders the list of movies
-        |--Movie : render info about a movie
-    |-- search form : renders a search bar
+- <Home/> : top-level component that renders search form component and list of movies
+- <Movies/> : renders the list of movies
+- <Movie/> : render info about a movie
+- <searchform/> : renders a search bar
 
 3. Setup routing for Home page and Movie page
 
