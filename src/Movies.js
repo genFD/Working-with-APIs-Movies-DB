@@ -6,9 +6,10 @@ const url =
 
 const Movies = () => {
   const { movies, isLoading } = useGlobalContext();
-  return isLoading ? (
-    <div className='loading'></div>
-  ) : (
+  if (isLoading) {
+    return <div className='loading'></div>;
+  }
+  return (
     <section className='movies'>
       {movies.map((movie) => {
         const { imdbID: id, Poster: poster, Title: title, Year: year } = movie;
