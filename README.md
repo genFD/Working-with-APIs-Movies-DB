@@ -64,7 +64,5 @@ APP/
 https://reactrouter.com/web/guides/quick-start
 
 
-## Acknowledgments
 
-Big shoutout to John smilga for his technical lead
 
